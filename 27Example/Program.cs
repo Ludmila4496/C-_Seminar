@@ -12,7 +12,7 @@ int SumNum(int n)
 {
     int Sum = 0;  
 
-    while (n/10 != 0||n%10 != 0)
+    while (n != 0)
     {
         Sum += Convert.ToInt32(n%10);  
         n/=10;
